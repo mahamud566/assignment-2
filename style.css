@@ -1,0 +1,48 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+ /* ---------------
+        banner 
+    ----------------*/
+.top-banner{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 50px 140px;
+}
+.banner{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+div.link{
+    margin-top: 50px;
+}
+.fa-angle-right{
+    margin-left: 5px;
+}
+.banner-container img{
+    width: 581px;
+    height: 613px;
+    margin-top: 30px;
+}
+h1.banner-head{
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 4px;
+}
