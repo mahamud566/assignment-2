@@ -1,11 +1,10 @@
 
 body{
+    width: 1600px;
+    height: 2534px;
     margin: 0px;
-    padding: 0px;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Lobster', cursive;
+    padding: 0px;   
     font-family: 'Poppins', sans-serif;
-    font-family: 'Varela Round', sans-serif;
 }
  /* ---------------
         banner 
@@ -100,7 +99,7 @@ li a{
 -------blogs------------*/
 .blog-section{
     display: flex;
-    height: 1092px;
+    height: 1135px;
 }
 .blogs{
     width: 312px;
@@ -136,3 +135,62 @@ span{
     display: flex;
     align-items: center;
 }
+
+/* ---------------
+     footer 
+     -------------- */
+
+/* footer{
+    width: 1600px;
+    height: 444px;
+    /* position:absolute;
+    bottom:0; */
+    footer{
+        background-color: #161616;
+        position: absolute;
+        width: 1600px;
+        height: 475px;
+        left: 0px;
+        top: 2108px;
+    }
+    .footer-1{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+    }
+    hr{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 80px 50px;
+    }
+    .footer-link{
+      display: flex;
+     justify-content: center;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    .footer-link a{
+        margin: 0px 20px;
+    
+    }
+    .link-1{
+      padding-top: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: #4b4c4b;
+    }
+    .social a{
+        font-size: 24px;
+        color: inherit;
+        border: 1px solid #ccc;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
