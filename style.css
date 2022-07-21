@@ -23,8 +23,12 @@
     justify-content: center;
     align-items: center;
     padding-left: 50px;
+    transition: background-color 1.5s;
+    transition-timing-function: ease-in;
 }
-
+.banner:hover{
+    background-color: brown;
+}
 .banner-container img{
     width: 581px;
     height: 613px;
@@ -43,6 +47,7 @@ h1.banner-head{
     background-color: #DD0000;
     border-radius: 5px;
 }
+
 div.link{
     margin-top: 50px;
 }
@@ -82,6 +87,10 @@ li a{
     padding: 17px 39px;
     border-radius: 10px;
     text-align: center;
+    transition: background-color 1.5s;
+}
+.option-1:hover{
+    background-color: #493df1;
 }
 .option-2{
     margin-bottom: 30px;
@@ -89,6 +98,10 @@ li a{
     padding: 17px 39px;
     border-radius: 10px;
     text-align: center;
+    transition: background-color 1.5s;
+}
+.option-2:hover{
+    background-color: #493df1;
 }
 .option-3{
     background-color: #DD0000;
@@ -220,6 +233,8 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1.5s;
+    transition-timing-function: ease-in;
   }
   h1.banner-head{
     font-weight: 700;
@@ -408,7 +423,12 @@ span{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: background-color 1.5s;
+        transition-timing-function: ease-in;
       }
+      .banner:hover{
+        background-color: brown;
+    }
       h1.banner-head{
         text-align: center;
         font-weight: 700;
@@ -590,12 +610,4 @@ span{
         border-radius: 50%;
         margin: 0 8px;
     }
-
-
-
-
-
-
-
-
 }

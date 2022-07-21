@@ -22,8 +22,12 @@ body{
         justify-content: center;
         align-items: center;
         padding-left: 50px;
+        transition: background-color 1.5s;
+        transition-timing-function: ease-in;
     }
-    
+    .banner:hover{
+        background-color: brown;
+    }
     .banner-container img{
         width: 581px;
         height: 613px;
@@ -206,7 +210,7 @@ body{
     background-color: #161616;
     color: #FFFFFF;
     width: 734px;
-    height: 398px;
+    height: 430px;
     border-radius: 30px;
     padding-left: 40px;
     margin: 30px;
@@ -260,8 +264,8 @@ li a{
     color: black; 
   }
   .option-1{
+    background-color: #DD0000;
     
-    background-color: #FFFFFF;
     padding: 17px 28px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
@@ -276,13 +280,13 @@ li a{
     text-align: center;
 }
 .option-3{
-    background-color: #DD0000;
+    background-color: #FFFFFF;
     padding: 17px 28px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     text-align: center;
 }
-.option-3 a{
+.option-1 a{
     color: white;
 }
 
@@ -459,15 +463,13 @@ li a{
     color: black; 
   }
   .option-1{
-    
-    background-color: #FFFFFF;
+    background-color: #DD0000;
     padding: 17px 28px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     text-align: center;
 }
-.option-2{
-    
+.option-2{   
     background-color: #FFFFFF;
     padding: 17px 28px;
     border: 1px solid #E8E8E8;
@@ -475,13 +477,13 @@ li a{
     text-align: center;
 }
 .option-3{
-    background-color: #DD0000;
+    background-color: #FFFFFF;
     padding: 17px 28px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     text-align: center;
 }
-.option-3 a{
+.option-1 a{
     color: white;
 }
 
